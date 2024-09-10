@@ -1,10 +1,10 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-
-import Welcome from './screen/welcome.js';
+import Index from './navigation/index.js';
+import './firebaseConfig.js';
 
 export default function App() {
-  return <Welcome />;
+  return <Index />;
 }
 
 const styles = StyleSheet.create({});

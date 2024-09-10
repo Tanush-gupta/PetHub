@@ -1,7 +1,7 @@
 import { Button, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import React from 'react';
-
+import React, { useEffect } from 'react';
 export default function Welcome() {
+
     return (
         <View style={styles.container}>
             <Image source={require('../assets/login.png')} style={styles.image} />
